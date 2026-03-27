@@ -28,7 +28,66 @@ With this contract:
 - Admin can update the user’s tier and points
 - Anyone can view NFT details and check which NFTs belong to a user
 
-This can be used for customer rewards, event participation badges, student memberships, brand loyalty, or Web3 community engagement.
+This can be used for customer rewa# NFT Loyalty (Soroban Smart Contract)
+
+## Project Description
+NFT Loyalty is a decentralized loyalty reward system built on the Stellar blockchain using Soroban smart contracts.
+
+Traditional loyalty programs store user points and rewards in centralized systems, making them less transparent and limited to a single platform. NFT Loyalty solves this by issuing blockchain-based loyalty records (NFT-style tokens) that users truly own.
+
+Each loyalty NFT represents a membership tier such as Bronze, Silver, or Gold and can unlock rewards like discounts, premium access, or exclusive benefits.
+
+This system brings transparency, security, and ownership to loyalty programs.
+
+---
+
+## What it does
+This smart contract allows an admin to create and manage NFT-based loyalty cards for users on-chain.
+
+It enables:
+- Initializing the contract with an admin
+- Minting loyalty NFTs to users
+- Storing user tier, points, and metadata
+- Tracking whether a reward has been redeemed
+- Allowing users to redeem rewards
+- Updating loyalty tiers and points
+- Fetching NFT data and user-owned NFTs
+
+This makes it suitable for:
+- Customer reward systems
+- Event participation badges
+- Membership programs
+- Web3 communities
+
+---
+
+## Features
+- Admin-controlled contract initialization
+- Mint loyalty NFTs to users
+- Loyalty tiers (Bronze, Silver, Gold)
+- On-chain storage of reward points
+- Redemption tracking system
+- Update tier and points functionality
+- Fetch NFT details by token ID
+- Fetch all NFTs owned by a user
+- Event emission for mint, redeem, and updates
+- Built using Soroban SDK on Stellar
+
+---
+
+## Smart Contract (Deployed)
+
+🔗 View Contract:  
+https://stellar.expert/explorer/testnet/contract/CBY5ZFMHKHPJJXNFFJ3UTVNYN64SK4PQSUHZM3ESK5DIK7H2GTABJ4GW :contentReference[oaicite:0]{index=0}
+
+---
+
+## Contract Screenshot
+
+<img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/c367a0f9-8149-4ecb-8b41-2b948d9a0bd5" />
+
+
+> 📌 Note: If image doesn't render, take a screenshot manually and upload to your repo:rds, event participation badges, student memberships, brand loyalty, or Web3 community engagement.
 
 ---
 
